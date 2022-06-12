@@ -1,0 +1,255 @@
+header {
+    position:fixed;
+    top:0%;
+    left: 10%;
+    border: 1px solid white;
+    background-color: white;
+    opacity: .8;
+    }
+    .navigation {
+        display:flex;
+    }
+    .docplanner-logo {
+        width: 700px;
+        display:inline-block;
+        margin-block-start: 2%;
+        margin-block-end: 2%;
+        margin-inline-start: 2%;
+        margin-inline-end: 2%;}
+    .docplanner-logo img {
+        width:400px;
+    }
+    .nav-links {
+        width: 300px;
+        display:flex;
+        justify-content:center;
+        margin-top: 20px;
+    }
+    .nav-links a {
+        text-decoration:none;
+        color: rgb(0,197,155);
+        margin:20px;
+    }
+    .container{
+        padding: 10%;
+    }
+    .general-infos-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Docplanner-sygnet {
+       display:flex;
+       justify-content: center;
+    }
+    .general-infos-container h1 {
+        width: 60%;
+        margin-left: 25%;
+        color: rgb(0,197,155);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .discreption-container {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: left;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    .services-container {
+        display:flex;
+        justify-content: center;
+        padding-left: 120px;
+    
+
+    }
+    .services-container h2 {
+        font-size: 20px;
+        font-weight: 40px;
+        margin-left:6%;
+        color: hsla(0,0%,100%,.7);
+    }
+    .services-container h1 {
+        margin-left: 6%;
+        color:white;
+        margin-left: 10%;
+        
+    }
+    .countries-existing {
+        margin-left: 12%;
+        padding: 3%;
+        border-radius: 10px;
+        margin-top: 60%;
+    }
+    .services-container-for-patients {
+        border: 1px solid black;
+        border-radius: 25px;
+        width: 30%;
+        background-color: rgb(0,204,177);
+        margin-right: 40px;
+    }
+    .services-container-for-doctors {
+        border: 1px solid;
+        border-radius: 25px;
+        width:30%;
+        background-color: rgb(61,131,223);
+        margin-right: 20px;
+    }
+    .services-container-for-clinics {
+        border: 1px solid;
+        border-radius: 25px;
+        width: 52%;
+        background-color: rgb(27, 26, 26);
+        margin-left: 20px;
+    }
+   
+    .adress-container {   
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .adress-container h1 {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        color:rgb(0,204,177);
+        width: 30%;
+    }
+    .adress-list-of-links {
+        width:60%;
+        margin-left: 10%;
+    }
+    .adress-list-of-links ul {
+        list-style-type: none;
+        line-height: 3;
+        margin: 10;
+        padding: 10;
+        overflow: hidden;
+    }
+    .adress-list-of-links li {
+        float:left;
+        margin-right: 15px;
+    }
+    .adress-list-of-links li a {
+        color:rgb(196,196,196);
+        text-decoration: none;
+    }
+    .adress-list-of-links img {
+        height: 22px;
+    }
+    .stats-container {
+        background: linear-gradient(80deg,white,rgb(0,204,177));
+        display: flex;
+        height: 380px;
+        padding: 4%;
+        overflow: hidden;
+    }
+    .introduction-box {
+        width: 30%;
+    }
+    .introduction-box h1 {
+        color: rgb(0,177,159);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 7%;
+    }
+    .introduction-box p {
+        opacity: 0.4;
+    }
+    .introduction-logo img {
+        height: 231px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .stats {
+        text-align: center;
+        width: 60%;
+        margin: 0 4% 0 19%;
+    }
+    .stats h1 {
+        color: rgb(0,197,155);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+        .stats-box {
+            height: 190px;
+            background-color: white;
+            border-radius: 7%;
+            width: 45%;
+            margin-right: 5%;
+        }
+        .stats-box-colomn-2 {
+            display: flex;
+            margin-top:5%;
+        }
+        .stats-box-colomn-1 {
+            display: flex;
+        }
+    
+    .box-3 p {
+        margin-right: 17%;
+        margin-top: -5%;
+    }
+    .box-4 p {
+        margin-right: 17%;
+    }
+    .offices-description {
+        text-align: center;
+    }
+    .offices-description h1 {
+        color: rgb(0,197,155);
+        font-family: 'Charmonman', cursive;
+    }
+    .offices-description p {
+        text-align: center;
+        color: black;
+        opacity: .7;
+    }
+    .offices-colomn-1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .offices-colomn-2 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+    .offices-colomn-1 h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .offices-box h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .opening-information {
+        text-align: right;
+        margin-top: -17%;
+    }
+    .opening-information input {
+        background-color: rgb(61,131,223);
+        color:white;
+        height: 31px;
+        border-radius: 25px;
+    }
+    /*Css for footer */
+    footer
+     {  border-top: 1px solid rgba(196,196,196,0.7);
+        text-align: center;
+        color: black;
+        opacity: .7;
+    }
+    .footer {
+        display: flex;
+        text-align: center;
+    }
+    .footer p {
+        width: 32%;
+        color: black;
+        opacity: .7;
+        margin-left: 15%;
+        margin-bottom: 0.5%;
+    }
+    .offices-list {
+        width: 50%;
+        margin-left: -20%;
+        margin-top: 1.2%;
+    }
+    .footer a {
+        text-decoration: none;
+        color: rgb(61,131,223);
+    }
